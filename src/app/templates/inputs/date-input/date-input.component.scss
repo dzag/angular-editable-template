@@ -1,0 +1,12 @@
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: inline;
+  color: #646464;
+}
+
+[contenteditable][inline=true] {
+  padding-left: 1px;
+  cursor: text;
+  display: inline;
+  outline: 1px solid transparent;
+}

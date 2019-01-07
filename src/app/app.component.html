@@ -1,0 +1,12 @@
+
+<div [formGroup]="formGroup">
+  <div>Hello <template-input formControlName="name"></template-input></div>
+  <div>Total <template-input formControlName="total" type="number"></template-input></div>
+  <div>Total <template-input formControlName="date" type="date"></template-input></div>
+  <div>Total <template-input formControlName="money1" type="currency"></template-input></div>
+  <div>Total <template-input formControlName="money2" type="currency"></template-input></div>
+  <div>Total <template-input formControlName="moneyTotal" type="currency"></template-input></div>
+</div>
+
+<div>{{ formGroup.value | json }}</div>
+<div>{{ formGroup.valid }}</div>
