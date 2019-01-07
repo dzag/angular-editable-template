@@ -1,4 +1,4 @@
-# Editable Content
+# Editable Template
 A simple POC which allow to use `@angular/forms` API with HTML5 `contenteditable`. 
 
 ## CLIs
